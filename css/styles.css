@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    /* Tamaño base para la fuente a 10px */
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+@font-face {
+            font-family: AHintofSass;
+            src: url(../font/AHintofSass.ttf);
+        }
+body {
+    background-image: url("../imagenes/fondo.jpg"); 
+    font-size: 2rem;
+    line-height: 2;
+    font-family:AHintofSass;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #B87C0A;
+}
+
+.cuerpo{
+    margin: 1% 10% 0% 10%;
+    padding: 2% 2% 0% 2%;
+   
+}
+
+
+.cuadro1{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+.cuadro2{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+.encabezado {
+    background: #DEA53A;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #B87C0A;
+    
+}
+.encabezado a {
+    text-decoration: none;
+    padding: 1% 2% 1% 2%;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+.encabezado a:hover {
+    background-color: #B87C0A;
+    transition: ease-in-out 0.2s;
+}
+.barra {
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+.registrarse {
+    background-color: #ffb03a;
+    border-radius: 5%;
+}
+.navegacion {
+    grid-column: 1 / 6;
+}
+.intro {
+    margin: auto;
+    max-width: 100%;
+}
+.imagen-intro {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    flex-direction: row;
+
+}
+
+.imagen-encabezado{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    flex-direction: row;
+
+}
+
+hr{
+    margin: 1% 1% 1% 1%;
+}
+img{
+    border-radius: 10px;
+}
